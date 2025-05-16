@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 30% 96%; /* Light Beige */
+    --foreground: 30 25% 25%; /* Dark Brown */
+    --card: 40 30% 92%; /* Warmer Beige */
+    --card-foreground: 30 25% 25%; /* Dark Brown */
+    --popover: 40 30% 92%; /* Warmer Beige */
+    --popover-foreground: 30 25% 25%; /* Dark Brown */
+    --primary: 120 41% 39%; /* Green */
+    --primary-foreground: 0 0% 100%; /* White */
+    --secondary: 120 20% 85%; /* Light Green/Muted Green */
+    --secondary-foreground: 120 25% 25%; /* Dark Greenish Brown */
+    --muted: 40 20% 88%; /* Lighter Beige */
+    --muted-foreground: 30 25% 45%; /* Medium Brown */
+    --accent: 45 100% 51%; /* Golden Yellow */
+    --accent-foreground: 30 25% 15%; /* Dark Brown for contrast on yellow */
+    --destructive: 0 72% 51%; /* Adjusted for better visibility if needed */
+    --destructive-foreground: 0 0% 98%;
+    --border: 40 25% 85%; /* Beige Border */
+    --input: 40 25% 88%; /* Beige Input Background */
+    --ring: 120 41% 39%; /* Green for focus rings */
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 30 15% 12%; /* Dark Earthy Brown */
+    --foreground: 40 30% 92%; /* Light Beige/Off-white */
+    --card: 30 15% 18%; /* Darker Earthy Brown */
+    --card-foreground: 40 30% 92%; /* Light Beige/Off-white */
+    --popover: 30 15% 18%;
+    --popover-foreground: 40 30% 92%;
+    --primary: 120 41% 49%; /* Brighter Green for dark mode */
+    --primary-foreground: 0 0% 10%; /* Dark, almost black */
+    --secondary: 120 25% 25%; /* Dark Muted Green */
+    --secondary-foreground: 120 30% 80%; /* Light Greenish */
+    --muted: 30 15% 22%; /* Darker Muted Brown */
+    --muted-foreground: 40 25% 65%; /* Lighter Medium Brown */
+    --accent: 45 100% 61%; /* Brighter Golden Yellow */
+    --accent-foreground: 30 25% 10%; /* Very Dark Brown */
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 15% 25%; /* Dark Brown Border */
+    --input: 30 15% 22%; /* Dark Brown Input Background */
+    --ring: 120 41% 49%; /* Brighter Green */
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
