@@ -2,9 +2,9 @@ import type { ProduceListing, CropAdvisory, MarketPriceInfo } from '@/types';
 
 export const mockUser: import('@/types').User = {
   id: 'user-123',
-  name: 'Ramesh Kumar',
+  name: 'Venkata Subbarao Gorantla',
   email: 'gorantla@example.com',
-  image: 'https://picsum.photos/seed/ramesh/100/100',
+  image: 'src/data/IMG_0589.JPG',
   farmLocation: 'Village Anjan',
 };
 
