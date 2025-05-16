@@ -3,7 +3,7 @@ import type { ProduceListing, CropAdvisory, MarketPriceInfo } from '@/types';
 export const mockUser: import('@/types').User = {
   id: 'user-123',
   name: 'Ramesh Kumar',
-  email: 'ramesh@example.com',
+  email: 'gorantla@example.com',
   image: 'https://picsum.photos/seed/ramesh/100/100',
   farmLocation: 'Village Anjan',
 };
@@ -15,7 +15,7 @@ export const mockProduceListings: ProduceListing[] = [
     quantity: '10 Quintal',
     price: '₹2200/Quintal',
     sellerId: 'user-123',
-    sellerName: 'Ramesh Kumar',
+    sellerName: 'Venkata Subbarao Gorantla',
     imageUrl: 'https://picsum.photos/seed/wheat/300/200',
     listedDate: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000), // 2 days ago
     latitude: 28.6139, // Delhi
