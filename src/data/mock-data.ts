@@ -4,7 +4,7 @@ export const mockUser: import('@/types').User = {
   id: 'user-123',
   name: 'Venkata Subbarao Gorantla',
   email: 'gorantla@example.com',
-  image: 'src/data/IMG_0589.JPG',
+  image: '/IMG_0589.JPG',
   farmLocation: 'Village Anjan',
 };
 
